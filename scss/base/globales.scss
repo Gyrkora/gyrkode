@@ -1,0 +1,26 @@
+
+/* Globales */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+

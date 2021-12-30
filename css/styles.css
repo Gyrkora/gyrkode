@@ -1,0 +1,76 @@
+/* loops */
+h1 {
+  font-size: 58px; }
+
+h2 {
+  font-size: 50px; }
+
+h3 {
+  font-size: 42px; }
+
+h4 {
+  font-size: 34px; }
+
+h5 {
+  font-size: 26px; }
+
+h6 {
+  font-size: 18px; }
+
+/* Globales */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: var(--fuenteParrafos);
+  font-size: 1.6rem;
+  line-height: 2; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.container {
+  width: 95%;
+  margin: 0 auto; }
+
+.full-container {
+  width: 100%; }
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black; }
+  header .logo {
+    width: 50vw; }
+  header nav {
+    background-color: black;
+    width: 50vw; }
+  header ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center; }
+    header ul li {
+      padding: 2rem;
+      color: white; }
+
+.blog-inicio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  row-gap: 3rem;
+  margin: 8rem 0; }
+  .blog-inicio div {
+    height: 40rem;
+    width: 30rem;
+    border: 3px solid black;
+    text-align: center; }
